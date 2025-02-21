@@ -274,8 +274,8 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('OFFICIAL GROUP🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('CHANNEL⚡', callback_data="trending")
+                            InlineKeyboardButton('MOST SEARCH🔍', callback_data="mostsearch"),
+                            InlineKeyboardButton('TOP TRENDING⚡', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
