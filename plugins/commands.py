@@ -183,8 +183,8 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ 🌧️', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('OFFICIAL GROUP🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('CHANNEL⚡', callback_data="trending")
+                            InlineKeyboardButton('MOST SEARCH🔍', callback_data="mostsearch"),
+                            InlineKeyboardButton('TOP TRENDING⚡', callback_data="trending")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAEN3hRnuBDNi4PmZZTJrmC67ccIa0kEsQACtA8AAjP1mFS-jnDSUd7fEDYE") 
@@ -212,8 +212,8 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('OFFICIAL GROUP🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('CHANNEL⚡', callback_data="trending")
+                            InlineKeyboardButton('MOST SEARCH🔍', callback_data="mostsearch"),
+                            InlineKeyboardButton('TOP TRENDING⚡', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEN3hRnuBDNi4PmZZTJrmC67ccIa0kEsQACtA8AAjP1mFS-jnDSUd7fEDYE") 
